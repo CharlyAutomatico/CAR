@@ -434,7 +434,7 @@ void setup() {
   Serial.println("");
   Serial.println("WiFi connected");
   
-  Serial.print("Camera Stream Ready! Go to: http://");
+  Serial.print("Camera Stream Ready to go! Go to: http://");
   Serial.println(WiFi.localIP());
   
   // Start streaming web server
